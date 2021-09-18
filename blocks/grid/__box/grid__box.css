@@ -1,8 +1,8 @@
-.grid__box{
-    max-width: 246px;
-    margin: 21px auto 0;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-    align-items: flex-end
+.grid__box {
+  max-width: 246px;
+  margin: 21px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-end;
 }
