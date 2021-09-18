@@ -1,0 +1,9 @@
+.body__footer{
+    margin: 66px auto 0;
+}
+
+@media screen and (max-width: 500px) {
+    .body__footer {
+      margin-top: 48px;
+    }
+  }

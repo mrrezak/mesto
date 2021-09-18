@@ -1,0 +1,22 @@
+.profile__open {
+  background: none;
+  border: none;
+  background-image: url(../../../images/Edit_Button.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.1s linear;
+}
+
+.profile__open:hover{
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 705px) {
+  .profile__open {
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+  }
+}

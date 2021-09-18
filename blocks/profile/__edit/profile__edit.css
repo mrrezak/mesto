@@ -1,0 +1,16 @@
+.profile__edit{
+    max-width: 24px;
+    max-height: 24px;
+    margin:auto 0;
+    transition: opacity 0.1s linear;
+}
+
+.profile__edit:hover{
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 705px) {
+    .profile__edit {
+      margin-left: 10px;
+    }
+  }

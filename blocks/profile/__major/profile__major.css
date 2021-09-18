@@ -1,0 +1,19 @@
+.profile__major {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 705px) {
+  .profile__major {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
