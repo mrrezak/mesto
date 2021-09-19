@@ -10,9 +10,8 @@
   }
 }
 
-
 @media screen and (max-width: 500px) {
-    .header__logo {
-      max-height: 25px;
-    }
+  .header__logo {
+    max-height: 25px;
   }
+}

@@ -9,11 +9,6 @@
     padding-right: 27px;
     box-sizing: border-box;
     margin-bottom: 32px;
-  }
-}
-
-@media screen and (max-width: 886px) {
-  .profile {
     justify-content: space-between;
   }
 }

@@ -1,16 +1,16 @@
-.grid__like{
-    padding: 0;
-    border: none;
-    background: none;
-    transition: opacity 0.1s linear;
-    background-image: url(../../../images/Group.svg);
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 22px;
-    margin-bottom: 3px;
-    margin-right: 2px;
+.grid__like {
+  padding: 0;
+  border: none;
+  background: none;
+  transition: opacity 0.1s linear;
+  background-image: url(../../../images/Group.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-bottom: 3px;
+  margin-right: 2px;
 }
 
-.grid__like:hover{
-    opacity: 0.6;
+.grid__like:hover {
+  opacity: 0.6;
 }
