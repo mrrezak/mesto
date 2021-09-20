@@ -12,7 +12,6 @@ let jobName = document.querySelector(".profile__major");
 //document.addEventListener("click", closePopup);
 //document.addEventListener("click", active);
 
-
 function openPopup(modal) {
   nameInput.value = profileName.textContent;
   jobInput.value = jobName.textContent;
@@ -34,13 +33,13 @@ function openPopup(modal) {
 //}
 
 function closePopup(evt) {
-  evt.classList.remove('popup_visible')
+  evt.classList.remove("popup_visible");
 }
 
 function closePopupButtonClick(evt) {
   const target = evt.target;
-  const currentPopup = target.closest('.popup')
-  closePopup(currentPopup)
+  const currentPopup = target.closest(".popup");
+  closePopup(currentPopup);
 }
 
 //function setPopupInputValue() {
@@ -56,7 +55,7 @@ function setNodeTextValue() {
 function formSubmitHandler(evt) {
   evt.preventDefault();
   setNodeTextValue();
-  closePopup(popup)
+  closePopup(popup);
 }
 
 formElement.addEventListener("submit", formSubmitHandler);
