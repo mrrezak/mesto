@@ -8,7 +8,6 @@ let jobInput = formElement.querySelector("#subtitle");
 let profileName = document.querySelector(".profile__name");
 let jobName = document.querySelector(".profile__major");
 
-
 function openPopup() {
   nameInput.value = profileName.textContent;
   jobInput.value = jobName.textContent;
